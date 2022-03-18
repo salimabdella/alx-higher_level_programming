@@ -1,3 +1,3 @@
 #!/bin/bash
 # send GET request on $1 -> first arg
-curl -sL "$1"
+curl -sX GET "$1" -L 200
